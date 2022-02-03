@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app_ui/screens/home/home_screen.dart';
+
+import 'constants.dart';
 
 void main() {
   runApp(const MyApp());

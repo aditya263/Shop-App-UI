@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../../constants.dart';
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -35,7 +37,7 @@ class HomeScreen extends StatelessWidget {
           ),
           onPressed: () {},
         ),
-        SizedBox(width: kDefaultPaddin / 2)
+        const SizedBox(width: kDefaultPaddin / 2)
       ],
     );
   }
