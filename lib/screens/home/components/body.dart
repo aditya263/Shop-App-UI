@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 import 'categorries.dart';
+import 'item_card.dart';
 
 class Body extends StatelessWidget {
   @override
