@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
+import 'categorries.dart';
 
 class Body extends StatelessWidget {
   @override
