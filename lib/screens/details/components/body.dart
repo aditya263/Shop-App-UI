@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app_ui/models/Product.dart';
+import 'package:shop_app_ui/screens/details/components/product_title_with_image.dart';
 
 import '../../../constants.dart';
 import 'add_to_cart.dart';
