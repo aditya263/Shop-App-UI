@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shop_app_ui/models/Product.dart';
 
 import '../../../constants.dart';
+import 'color_and_size.dart';
 
 class Body extends StatelessWidget {
   final Product product;
