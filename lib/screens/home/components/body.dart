@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app_ui/models/Product.dart';
+import 'package:shop_app_ui/screens/details/details_screen.dart';
 
 import '../../../constants.dart';
 import 'categorries.dart';
