@@ -18,8 +18,8 @@ class Product {
 List<Product> products = [
   Product(
       id: 1,
-      title: "Office Code",
-      price: 234,
+      title: "Women purple handbag",
+      price: 849,
       size: 12,
       description: dummyText,
       image: "assets/images/bag_1.png",
@@ -27,7 +27,7 @@ List<Product> products = [
   Product(
       id: 2,
       title: "Belt Bag",
-      price: 234,
+      price: 1899,
       size: 8,
       description: dummyText,
       image: "assets/images/bag_2.png",
@@ -35,7 +35,7 @@ List<Product> products = [
   Product(
       id: 3,
       title: "Hang Top",
-      price: 234,
+      price: 1539,
       size: 10,
       description: dummyText,
       image: "assets/images/bag_3.png",
@@ -51,15 +51,15 @@ List<Product> products = [
   Product(
       id: 5,
       title: "Office Code",
-      price: 234,
+      price: 669,
       size: 12,
       description: dummyText,
       image: "assets/images/bag_5.png",
       color: const Color(0xFFFB7883)),
   Product(
     id: 6,
-    title: "Office Code",
-    price: 234,
+    title: "Women brown hobo",
+    price: 489,
     size: 12,
     description: dummyText,
     image: "assets/images/bag_6.png",

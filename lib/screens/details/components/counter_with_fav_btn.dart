@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
 import 'cart_counter.dart';
 
 class CounterWithFavBtn extends StatelessWidget {
@@ -22,7 +20,7 @@ class CounterWithFavBtn extends StatelessWidget {
             color: Color(0xFFFF6464),
             shape: BoxShape.circle,
           ),
-          child: SvgPicture.asset("assets/icons/heart.svg"),
+          child: const Icon(Icons.favorite_border),
         )
       ],
     );

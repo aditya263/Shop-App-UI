@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app_ui/models/Product.dart';
+import 'package:shop_app_ui/models/product.dart';
 
 import '../../../constants.dart';
 
@@ -15,13 +15,13 @@ class ColorAndSize extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Expanded(
+        const Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text("Color"),
+              Text("Color"),
               Row(
-                children: const [
+                children: [
                   ColorDot(
                     color: Color(0xFF356C95),
                     isSelected: true,

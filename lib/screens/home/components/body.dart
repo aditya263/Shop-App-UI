@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app_ui/models/Product.dart';
+import 'package:shop_app_ui/models/product.dart';
 import 'package:shop_app_ui/screens/details/details_screen.dart';
 
 import '../../../constants.dart';
@@ -24,7 +24,7 @@ class Body extends StatelessWidget {
                 .copyWith(fontWeight: FontWeight.bold),
           ),
         ),
-        Categories(),
+        const Categories(),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),

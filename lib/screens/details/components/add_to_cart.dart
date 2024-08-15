@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shop_app_ui/models/Product.dart';
+import 'package:shop_app_ui/models/product.dart';
 
 import '../../../constants.dart';
 
@@ -29,8 +28,8 @@ class AddToCart extends StatelessWidget {
               ),
             ),
             child: IconButton(
-              icon: SvgPicture.asset(
-                "assets/icons/add_to_cart.svg",
+              icon: Icon(
+                Icons.add_shopping_cart_outlined,
                 color: product.color,
               ),
               onPressed: () {},
@@ -39,13 +38,17 @@ class AddToCart extends StatelessWidget {
           Expanded(
             child: SizedBox(
               height: 50,
-              child: FlatButton(
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(18)),
-                color: product.color,
+              child: TextButton(
+                style: TextButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18),
+                  ),
+                  backgroundColor: product.color,
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                ),
                 onPressed: () {},
                 child: Text(
-                  "Buy  Now".toUpperCase(),
+                  "Buy Now".toUpperCase(),
                   style: const TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
