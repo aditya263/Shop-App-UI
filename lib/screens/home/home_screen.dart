@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:shop_app_ui/screens/home/components/body.dart';
 
 import '../../constants.dart';
@@ -30,7 +29,6 @@ class HomeScreen extends StatelessWidget {
         IconButton(
           icon: const Icon(
             Icons.shopping_cart,
-            // By default our  icon color is white
             color: kTextColor,
           ),
           onPressed: () {},
