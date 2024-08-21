@@ -1,6 +1,9 @@
-# shop_app_ui
+# Shop App UI
 
-A new Flutter project.
+Minimal UI
+
+# ✌ Preview
+![Shop App UI](https://github.com/user-attachments/assets/348db0c9-56eb-4e02-b1fd-dc56a050604c)
 
 ## Getting Started
 
